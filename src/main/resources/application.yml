@@ -1,0 +1,20 @@
+# URL of the database.
+# Defaults to in-memory H2 database.
+spring:
+  datasource:
+    # URL of the database.
+    url: jdbc:h2:mem:testdb
+    # Driver class name of the database.
+    driverClassName: org.h2.Driver
+    # Username for the database connection.
+    username: sa
+    # Password for the database connection.
+    password:
+  jpa:
+    # Platform to use for the database.
+    database-platform: org.hibernate.dialect.H2Dialect
+    # Settings for Hibernate ORM.
+    hibernate:
+      # Automatically create or update the schema.
+      # Valid options are: none, validate, update, create, create-drop.
+      ddl-auto: create
