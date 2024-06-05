@@ -4,13 +4,13 @@ Codeium을 활용한 실습 예제입니다.
 
 ## 개발환경
 
-**SpringBoot 3.2**
-**JDK 17**
-**Lombok**
-**Spring Data JPA**
-**H2**
-**Gradle**
-**Junit5**
+- SpringBoot 3.2
+- JDK 17
+- Lombok
+- Spring Data JPA
+- H2
+- Gradle
+- JUnit5
 
 ## 기능
 - 로또를 자동생성 후 구매이력을 저장하는 API(이름,로또번호,시간정보를 저장하는 엔티티)
