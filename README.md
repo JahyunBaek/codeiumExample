@@ -9,7 +9,7 @@ Codeium을 활용한 실습 예제입니다.
 - Lombok
 - Spring Data JPA
 - H2
-- Gradle
+- Gradle8
 - JUnit5
 
 ## 기능
